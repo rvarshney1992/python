@@ -76,7 +76,7 @@ if st.sidebar.button("Save Changes to CSV"):
     st.sidebar.success("Changes saved to data.csv!")
 
 # --- TOP SECTION: SUMMARY DASHBOARD ---
-st.title("TruRisk™ Summary: Corp Demo")
+st.title("TruRisk™ Summary")
 
 col1, col2 = st.columns([1, 1.5])
 
@@ -187,3 +187,4 @@ for _, row in risky_df.iterrows():
             </div>
         </div>
     """, unsafe_allow_html=True)
+
