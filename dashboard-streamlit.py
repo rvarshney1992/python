@@ -62,7 +62,7 @@ if st.sidebar.button("Save to CSV"):
     st.sidebar.success("Changes Saved!")
 
 # --- TOP SECTION: SUMMARY DASHBOARD ---
-st.title("TruRisk™ Summary: Corp Demo")
+st.title("TruRisk™ Summary")
 
 col1, col2 = st.columns([1, 1.5])
 
@@ -148,4 +148,5 @@ with tabs[1]:
                     <div class="label-text">Since last 7 days</div>
                 </div>
             </div>
+
         """, unsafe_allow_html=True)
