@@ -40,7 +40,7 @@ df = load_data()
 edited_df = st.sidebar.data_editor(df, num_rows="dynamic")
 
 # --- MAIN LAYOUT ---
-st.title("TruRisk™ Summary: Corp Demo")
+st.title("TruRisk™ Summary")
 
 col1, col2 = st.columns([1, 1.5])
 
@@ -116,4 +116,5 @@ with col2:
 # Save Button
 if st.sidebar.button("Save Changes to CSV"):
     edited_df.to_csv('data.csv', index=False)
+
     st.sidebar.success("Saved!")
