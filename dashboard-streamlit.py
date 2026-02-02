@@ -108,7 +108,7 @@ st.divider()
 
 # --- BOTTOM SECTION: DETAILED ENTITIES ---
 st.header("Business Entities Detail")
-tabs = st.tabs(["Overall", "Top Risky", "Best Performing"])
+tabs = st.tabs(["Top Risky"])
 
 with tabs[1]:
     # Sort by Score Descending for "Top Risky"
@@ -150,3 +150,4 @@ with tabs[1]:
             </div>
 
         """, unsafe_allow_html=True)
+
