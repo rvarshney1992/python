@@ -1,6 +1,7 @@
-Entity,Value_Millions,TruRisk_Score,Risk_Appetite
-Sales Portal,175,786,300
-Finance,150,460,500
-Service Catalog,110,472,500
-Checkout App,80,410,250
-Customer Support,58,430,575
+Entity,Sub_Label,Value_Millions,TruRisk_Score,Risk_Appetite,Trend
+Employee Portal,BusinessApp: Empl...,599,836,430,219
+Sales Portal,BusinessApp: Sale...,175,786,300,-1
+Inventory,LinuxHostname,2,652,500,-1
+Checkout App,BusinessApp: App007,80,412,250,-49
+Service Catalog,BusinessApp: Svc...,110,472,500,12
+Finance,Internal System,150,460,500,-5
